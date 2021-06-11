@@ -1,0 +1,36 @@
+{
+    "agsPortal": {
+        "url": "https://kartverket.maps.arcgis.com/",
+        "itemId": "5646d6d4216f4b1f87a7b621b88d972a"
+    },
+    "ogcFeatureLayer": {
+        "url": "https://ogcapitest.kartverket.no/ldproxy/rest/services/matrikkelenadresse",
+        "collectionId": "Vegadresse",
+        "popup": {
+            "title": "Adresse",
+            "fields": [
+                {
+                    "label": "adressetekst",
+                    "fieldName": "adressetekst"
+                },
+                {
+                    "label": "kommunenavn",
+                    "fieldName": "kommunenavn"
+                },
+                {
+                    "label": "kommunenummer",
+                    "fieldName": "kommunenummer"
+                }
+            ]
+        }
+    },
+    "buildingSceneLayer": {
+        "name": "Operaen i Bjørvika"
+    },
+    "timeSlider": {
+        "layerName": "3D-bygg",
+        "subLayerName": "Bygninger",
+        "dateField": "forstedato",
+        "startYear": 1900
+    }
+}
